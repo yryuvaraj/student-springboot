@@ -5,7 +5,7 @@
 
 	<groupId>com.srk</groupId>
 	<artifactId>studentapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-RELEASE</version>
 	<packaging>war</packaging>
 
 	<name>studentapi</name>
@@ -131,12 +131,12 @@
         <repository>
             <id>deployment</id>
             <name>Releases</name>
-            <url>http://nexus:8081/repository/maven-releases/</url>
+            <url>http://nexus:8081/repository/student-releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Snapshots</name>
-            <url>http://nexus:8081/repository/maven-snapshots/</url>
+            <url>http://nexus:8081/repository/student-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 	
